@@ -1,0 +1,60 @@
+
+
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	background-color:#cebfbf !important;
+}
+
+
+
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  background-image: url('./picture/nice.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+
+
+footer {
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 40px;
+  height: 40px;
