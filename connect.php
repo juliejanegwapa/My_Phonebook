@@ -4,7 +4,7 @@
 	$Lastname = $_POST['Lastname'];
 	$Username = $_POST['Username'];
 	$Email = $_POST['Email'];
-	$Password = $_POST['Password'];
+	$Password = md5 ($_POST['Password']);
 	
 	if(!empty($Firstname) && !empty($Lastname) && !empty($Username) && !empty($Email) && !empty($Password)) {
 		$host = "localhost";

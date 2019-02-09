@@ -93,7 +93,7 @@ body  {
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
 <a class="dropdown-item" href="delete.php?id=<?php echo $row["id"]; ?>" onclick="return confirm('Are you sure?');">Delete</a>
-    <button class="dropdown-item" type="button">Edit</button>
+    <button class="dropdown-item" type="button"> <a href="edit.php"> Edit </a></button>
   </div>
 </div>
 </td>

@@ -3,7 +3,8 @@
 <head>
 <style>
 body {
- background-image: url("nice.jpg");
+ background-image: url("orig.jpg");
+ background-size: cover;
 }
 </style>
 	<title>Phonebook</title>
@@ -49,8 +50,8 @@ body {
 <div class="container">
 	 <tr>
 			<form method="post" action="insert.php">
-					<td><b>Contact Name:</b><br/><input type="text" name="Contact_Name"></td><br/>
-					<td><b>Contact Number:</b><br/><input type="text" name="Contact_Number"></td><br/>
+					<td><b>Contact Name:</b><br/><input type="text" name="Contact_Name" required></td><br/>
+					<td><b>Contact Number:</b><br/><input type="text" name="Contact_Number" required></td><br/>
 
 				</tr>
 
@@ -59,7 +60,7 @@ body {
 </div>
 <br>
 <div class="container">
-<input type="submit" class="btn btn-info" onclick="alert('save!')" value="Save"></button>&nbsp;&nbsp;&nbsp;&nbsp;
+ <button class="btn btn-info" type="submit">Save</button>
 <a href="home.php"><button type="submit"class="btn btn-info" >Back</a></button>
 </form>
 	</body>
